@@ -1,0 +1,128 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for hotelwakeup
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-07 18:39+0200\n"
+"PO-Revision-Date: 2023-08-07 18:44+0200\n"
+"Last-Translator: Javier Pastor <jpastor@cerebelum.net>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: Telegrammissedcall.class.php:75
+msgid "Command not found!"
+msgstr "¡Comando no encontrado!"
+
+#: Telegrammissedcall.class.php:289
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: Telegrammissedcall.class.php:290
+msgid "Enabled"
+msgstr "Activado"
+
+#: Telegrammissedcall.class.php:306
+msgid "Call Notifications"
+msgstr "Notificaciones de llamadas"
+
+#: Telegrammissedcall.class.php:307 Telegrammissedcall.class.php:320
+#: Telegrammissedcall.class.php:335
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: Telegrammissedcall.class.php:308 Telegrammissedcall.class.php:321
+#: Telegrammissedcall.class.php:336
+msgid "Telergram ID"
+msgstr "Telergrama ID"
+
+#: Telegrammissedcall.class.php:309 Telegrammissedcall.class.php:322
+#: Telegrammissedcall.class.php:337
+msgid "Telegram Bot token"
+msgstr "Token del Bot de Telegram"
+
+#: Telegrammissedcall.class.php:310
+msgid "Enable notification of calls"
+msgstr "Activar la notificación de llamadas"
+
+#: Telegrammissedcall.class.php:311 Telegrammissedcall.class.php:325
+#: Telegrammissedcall.class.php:339
+msgid ""
+"Here you can specify the telegram user ID (personal) or the general chat ID. "
+"You can specify multiple separated dashes (111-222-333)."
+msgstr ""
+"Aquí puedes especificar el ID de usuario de telegramas (personal) o el ID de "
+"chat general. Puedes especificar varios guiones separados (111-222-333)."
+
+#: Telegrammissedcall.class.php:319
+msgid "Missed Call Notifications"
+msgstr "Notificación de Llamada Perdida"
+
+#: Telegrammissedcall.class.php:323
+msgid "VoiceMail Number Extension"
+msgstr "Extensión del número de buzón de voz"
+
+#: Telegrammissedcall.class.php:324
+msgid "Enable notification of missed calls"
+msgstr "Activar la notificación de llamadas perdidas"
+
+#: Telegrammissedcall.class.php:334
+msgid "Call recording notifications"
+msgstr "Notificaciones de grabación de llamadas"
+
+#: Telegrammissedcall.class.php:338
+msgid "Enable notification of record calls"
+msgstr "Activar la notificación de llamadas grabadas"
+
+#: agi-bin/telegram_missed_call.php:22
+#, php-format
+msgid ""
+"Missed call + voice message\n"
+"%%__DATETIME__%%\n"
+"%%__CID__%% -> %%__EXTTOLOCAL__%%"
+msgstr ""
+"Llamada perdida + mensaje de voz\n"
+"%%__DATETIME__%%\n"
+"%%__CID__%% -> %%__EXTTOLOCAL__%%"
+
+#: agi-bin/telegram_missed_call.php:35
+#, php-format
+msgid ""
+"Missed call\n"
+"%%__DATETIME__%%\n"
+"%%__CID__%% -> %%__EXTTOLOCAL__%%"
+msgstr ""
+"Llamada perdida\n"
+"%%__DATETIME__%%\n"
+"%%__CID__%% -> %%__EXTTOLOCAL__%%"
+
+#: agi-bin/telegram_missed_call.php:49
+#, php-format
+msgid ""
+"Call\n"
+"%%__DATETIME__%%\n"
+"%%__CID__%% -> %%__EXTTOLOCAL__%%"
+msgstr ""
+"Llama\n"
+"%%__DATETIME__%%\n"
+"%%__CID__%% -> %%__EXTTOLOCAL__%%"
+
+#: agi-bin/telegram_missed_call.php:60
+#, php-format
+msgid ""
+"Record Call\n"
+"%%__DATETIME__%%\n"
+"%%__CID__%% -> %%__EXTTOLOCAL__%%"
+msgstr ""
+"Llamada Grabada\n"
+"%%__DATETIME__%%\n"
+"%%__CID__%% -> %%__EXTTOLOCAL__%%"
