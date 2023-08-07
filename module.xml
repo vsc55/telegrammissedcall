@@ -1,21 +1,24 @@
 <module>
 	<rawname>telegrammissedcall</rawname>
-	<type>setup</type>
+	<repo>unsupported</repo>
 	<name>Telegram for FreePBX</name>
-	<version>0.2.0</version>
+	<version>16.0.0</version>
+	<type>setup</type>
+	<category>Applications</category>
 	<publisher>markeloviv</publisher>
 	<license>GPLv3+</license>
-	<category>Applications</category>
-	<changelog>
-		0.2.0 FIX sip extensions
-		*0.1.0* Initial
-	</changelog>
-	<description>Allows you to receive notifications about missed calls, redirect voice mail and recorded calls to Telegram
-	</description>
+	<licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<description>Allows you to receive notifications about missed calls, redirect voice mail and recorded calls to Telegram</description>
 	<depends>
 		<engine>asterisk 1.8</engine>
-		<version>0.2.0</version>
+		<version>16</version>
 		<module>core</module>
 	</depends>
+	<supported>16.0</supported>
 	<location>https://github.com/markeloviv/telegrammissedcall</location>
+	<changelog>
+		*16.0.0* Update FreePBX 16
+		*0.2.0* FIX sip extensions
+		*0.1.0* Initial
+	</changelog>
 </module>
